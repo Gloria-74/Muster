@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercise 1</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+  <header>
+      <nav id="home-navbar" class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+          <a class="navbar-brand site-logo" href="index.html">
+            <!-- nav bar image -->
+            <img src="pictures/photo.jpg" 
+            width="50" height="50" class="d-inline-block align-top" alt="">
+          </a>
+  
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse" id="navbarContent">
+              <ul class="navbar-nav text-center">
+                  <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                  <li class="nav-item"><a class="nav-link" href="personaldata.html">Personal Data</a></li>
+                  <li class="nav-item"><a class="nav-link" href="schoolwork.html">School and work experience</a></li>
+                  <li class="nav-item"><a class="nav-link" href="leisuretime.html">Leisure time</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+              </ul>
+          </div>
+      </nav>
+  </header>
+
+  <!--headline plus grey box-->
+  <div id="jumbotron" class="jumbotron jumbotron-fluid intro-section" 
+  style="background-color: #a2a2c3; padding-bottom: 10%;"> <!--light purple-grey background-->
+    <div class="container text-center">
+      <h1 class="display-4">May I introduce myself</h1>
+      <p class="lead">"It's your life. So play the lead and not the supporting role."</p>
+      <p id="demo"></p>
+      <button id="learnmore" type="get-started-btn" class="btn btn-outline-light" onmouseover="mouseoverEvent()" onclick="openWindow()">Learn more about me</button>
+      <script>
+        function mouseoverEvent() {
+          document.getElementById("demo").innerHTML = "click the button";
+        }
+        function openWindow() {
+          window.Location.href="http://127.0.0.1:5500/personaldata.html"
+        }
+    </script>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+  
+      <!-- Section: Links -->
+      <section class="" style="text-align: left;">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About me</h5>
+            <p>I am a 27 year old girl who loves to travel and to bake.</p>
+          </div>
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled" style="text-align: left;">
+              <li>
+                <a href="index.html" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="personaldata.html" class="text-white">Personal Data</a>
+              </li>
+              <li>
+                <a href="schoolwork.html" class="text-white">School and work experience</a>
+              </li>
+              <li>
+                <a href="leisuretime.html" class="text-white">Leisure time</a>
+              </li>
+              <li>
+                <a href="contact.html" class="text-white">Contact</a>
+              </li>
+            </ul>
+          </div>
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact me</h5>
+            <p>Phone: +43 660/6510337 <br>
+              E-Mail:
+              <a href="mailto:c00290104@itcarlow.ie">c00290104@itcarlow.ie</a>
+            </p>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="copyright">
+        <p style="display: inline;">Copyright ©️ 2022 All rights reserved | This template is made with</p>
+        <p style="color:red; display: inline;">&#9829;</p>
+        <p style="display: inline;">by</p>
+        <p style="color: deeppink; display: inline;">Gloria</p>
+    </div>
+
+  </footer>
+
+</body>
+
+</html>

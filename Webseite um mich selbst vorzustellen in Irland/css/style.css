@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    font-family: 'Roboto', sans-serif;
+    border-left: 50px;
+    min-height: 100vh;
+    display: grid;
+    flex-direction: column;
+    /* animated background */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+    margin-top: 20%;
+}
+
+/* animated color changing background 
+   @keyframe rule specifies the animation code. 
+   The animation is created by gradually changing from one set of CSS styles to another. 
+*/
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.home-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+@media (min-width:768px) {
+    .home-section {
+        height: 100vh;
+    }
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+/* Change navbar styling on small viewports */
+@media (max-width: 768px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+/* styling text areas of contact form */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* styling contact form */
+.contact {
+    border-radius: 5px;
+    padding: 20px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+
+/* Styling button send message*/
+#send {
+    border-radius: 5px;
+    margin-top: 16px;
+    background-color:grey; 
+    text-align:center; 
+    color:white;
+}
+
+.h2 {
+    border: 50px;
+    color: whitesmoke;
+    margin-top: 200px;
+}
+
+.table {
+    border: 50px;
+    border-color: #48D1CC;
+}
+
+.background {
+    height: 100vh;
+    position: relative;
+}
+
+.row {
+    justify-content: space-around;
+}
+
+.footer {
+    height: fit-content;
+}
