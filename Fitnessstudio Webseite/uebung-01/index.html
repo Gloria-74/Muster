@@ -1,0 +1,673 @@
+<!doctype html>
+<html lang="de">
+
+
+<!-- Laura + Gloria - wir haben Übung 1 zusammen gemacht-->
+
+<head>
+    <title>Übung 01</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="http://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="fonts/flaticon//font/flaticon.css">
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body>
+
+    <!--nav bar-->
+    <!--
+    <nav id="navbar-example2" class="navbar navbar-light bg-light fixed-top">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+                <a class="nav-link" href="#fat">@fat</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#mdo">@mdo</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#one">one</a>
+                    <a class="dropdown-item" href="#two">two</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#three">three</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    -->
+
+    <!-- Navbar-->
+    <header class="header">
+        <!--
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+            <div class="container">
+                <a href="#" class="navbar-brand text-uppercase font-weight-bold">WORKOUT</a>
+                <div class="dot" style="color: deeppink; size: 100%; vertical-align: bottom;">&#8226;</div>
+                <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link"><u>Home</u><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Classes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Schedule</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Trainer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav> -->
+
+        <nav id="home-navbar" class="navbar navbar-expand-md fixed-top navbar-light bg-light">
+            <a class="navbar-brand site-logo" href="index.html">
+                Workout<span>.</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#classes">Classes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#schedule">Schedule</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#trainers">Trainer</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <div data-spy="scroll" data-target="#navbar-example2" data-offset="0">        
+
+        <!--headline plus grey box-->
+        <div id="fat" class="jumbotron jumbotron-fluid intro-section">
+            <div class="container text-center">
+                <h1 class="display-4">Fitness Help Me Feel Better</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores nisi minus perspiciatis optio, id deserunt.</p>
+                <button type="get-started-btn" class="btn btn-outline-light" onclick="myFunction()">GET STARTED</button>
+                <p id="demo"></p>
+                <script>
+                    function myFunction() {
+                      document.getElementById("demo").innerHTML = "You just started";
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="container home-section pt-80">
+            <div class="row">
+                
+                <!--stay healthy headline-->
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <p class="text-muted">Stay Healthy</p>
+                    <h2>Setup Your Body With Workout</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, mollitia amet nihil! Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+            </div>
+            <!--flaticon icon plus text-->
+            <div class="row">
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Veritas quo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <!-- <img class="exercise" src="images/workout.jpg"></img> -->   <!--color + size wrong-->
+                    <h3>Perspiciatis modi</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <!-- <img class="vegetables" src="images/vegetables.jpg"></img> -->  <!--color + size wrong-->
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Magnam ad eius</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!--background image-->
+        <div class="container-fluid result d-flex flex-column justify-content-center align-items-center">
+            <div id="background-result" class="row">
+                <div class="col-12 col-lg-10 offset-lg-1 text-center">
+                    <h2 class="text-white">Get The Result You Want</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ut quisquam, distinctio illo, debitis repudiandae.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="mdo" class="container pt-80">
+            <!--Fitness classes-->
+            <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <p class="text-muted">Fitness Class</p>
+                    <h2>Our Classes</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, mollitia amet nihil! Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+            </div>
+            <!--table collum left-->
+            <div class="row">
+                <div id="classes" class="col-12 col-lg-6">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #1</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_2.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #2</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_3.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #3</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_4.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #4</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #5</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--table collum right-->
+                <div class="col-12 col-lg-6">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #1</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_2.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #2</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_3.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #3</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_4.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #4</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body classes-card-item">
+                                    <h5 class="card-title">Fitness Class Name #5</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--background image-->
+        <div class="container-fluid result d-flex flex-column justify-content-center align-items-center">
+            <div class="row">
+                <div class="col-12 col-lg-10 offset-lg-1 text-center">
+                    <h2 class="text-white">Every Step Counts</h2>
+                    <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ut quisquam, distinctio illo, debitis repudiandae.</p>
+                </div>
+            </div>
+        </div>
+        <!--Schedule-->
+        <div class="container pt-80">
+            <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <p class="text-muted">Fitness Sched</p>
+                    <h2>Schedule</h2>
+                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, mollitia amet nihil! Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+            </div>
+            <!--Wochentage-->
+            <div class="row">
+                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link active" id="sunday" data-toggle="pill" href="#s" role="tab" aria-controls="S" aria-selected="true">S</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="monday" data-toggle="pill" href="#m" role="tab" aria-controls="M" aria-selected="false">M</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="tuesday" data-toggle="pill" href="#t" role="tab" aria-controls="T" aria-selected="false">T</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="wednesday" data-toggle="pill" href="#w" role="tab" aria-controls="W" aria-selected="false">W</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="thursday" data-toggle="pill" href="#t" role="tab" aria-controls="T" aria-selected="false">T</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="friday" data-toggle="pill" href="#f" role="tab" aria-controls="F" aria-selected="false">F</a>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <a class="nav-link" id="saturday" data-toggle="pill" href="#s" role="tab" aria-controls="S" aria-selected="false">S</a>
+                    </li>
+                </ul>
+            </div>
+            <!--Table classes-->
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #1</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_2.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #2</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_3.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #3</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_4.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #4</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #5</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #1</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_2.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #2</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_3.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #3</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_4.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #4</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card mb-3">
+                        <div class="row no-gutters">
+                            <div class="col-4">
+                                <img class="img-thumbnail" src="images/img_1.jpg" alt="Fitness Class">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Fitness Class Name #5</h5>
+                                    <p class="card-text text-muted">By Justin Daniel 30 minutes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--background image-->
+                <div class="container-fluid result d-flex flex-column justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-12 col-lg-10 offset-lg-1 text-center">
+                            <h2 class="text-white">Your Fitness Partner Where Ever You Are</h2>
+                            <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta ut quisquam, distinctio illo, debitis repudiandae.</p>
+                        </div>
+                    </div>
+                </div>                     
+            </div>
+            <!--Trainer-->
+            <div class="row">
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <p class="text-muted" style="margin-top: 40px">Trainer</p>
+                    <h2>Our Trainers</h2>
+                    <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <img class="images" src="images/person_1.jpg">
+                    <h3>Justin Daniel</h3>
+                    <p class="Trainer">TRAINER</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <img class="images" src="images/person_2.jpg">
+                    <h3>Matthew Davidson</h3>
+                    <p>TRAINER</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <img class="images" src="images/person_3.jpg">
+                    <h3>Matthew Davidson</h3>
+                    <p>TRAINER</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <img class="images" src="images/person_4.jpg">
+                    <h3>Matthew Davidson</h3>
+                    <p>TRAINER</p>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <!--Fitness services headline-->
+                <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                    <p class="text-muted">Fitness Services</p>
+                    <h2>Services</h2>
+                    <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <!--icons fitness services-->
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Be Fit</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Join Club</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Gym Fitness</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Eat Vegie</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Fruit Juice</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+                <div class="col-12 col-lg-4 text-center">
+                    <div class="glyph-icon flaticon-gym-1 icon-font-size"></div>
+                    <h3>Body Warmup</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div>
+            </div>
+        </div>
+        <!--Get in touch-->
+        <div style="background-color: #f2f2f2">
+            <div class="col-12 col-lg-6 offset-lg-3 text-center">
+                <p class="text-muted">Get in Touch</p>
+                <h2 style="color:deeppink">Contact Us</h2>
+                <p class="text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            </div>
+            <!--Contact form-->
+            <div class="contact">              
+                <label for="fname"></label>
+                <input type="text" id="fname" name="firstname" placeholder="First Name">
+              
+                <label for="lname"></label>
+                <input type="text" id="lname" name="lastname" placeholder="Last Name">  
+                  
+                <label for="email"></label>
+                <input type="text" id="email" name="email" placeholder="Email">
+                                    
+                <label for="subject"></label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+              
+                <label for="message"></label>
+                <textarea id="text" name="message" placeholder="Write your message here." style="height:200px"></textarea>
+              
+                <button type="button" style="background-color:deeppink; text-align:center; color:white">SEND MESSAGE</button>
+            </div>
+        </div>
+    </div>
+
+<!-- Footer -->
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+  
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">About work</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-3 mb-md-0">
+            <h5 class="text-uppercase">Links</h5>
+  
+            <ul class="list-unstyled mb-0" style="color: deeppink">
+              <li>
+                <a href="#!" class="text-white">Home</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Classes</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Schedule</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Trainer</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">SUBSCRIBE</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <label for="email"></label>
+                  <input type="text" id="mail" name="email" placeholder="Email">
+            <button type="button" style="background-color:deeppink; text-align:center; color:white;">SUBSCRIBE</button>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="copyright">
+        <p style="display: inline;">Copyright ©️ 2022 All rights reserved | This template is made with</p>
+        <p style="color:red; display: inline;">&#9829;</p>
+        <p style="display: inline;">by</p>
+        <p style="color: deeppink; display: inline;">Colorlib</p>
+    </div>
+  </footer>
+  <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   <script src="custom.js"></script> 
+</body>
+
+</html>
